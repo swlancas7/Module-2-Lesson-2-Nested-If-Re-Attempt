@@ -56,14 +56,16 @@ else:
 
 
 #Quick Decisions: The Event Planner: Code Correction
-attendees = input("Enter number of attendees:")
+attendees = input("Enter the number of attendees:")
+attendees = int(attendees)
 venue = "large hall" 
 if attendees > 100 
 else
     print("conference room")
 
 #Venue Selection
-attendees = input("Enter number of attendees:")
+attendees = input("Enter the number of attendees:")
+attendees = int(attendees)
 venue = "large hall" 
 if attendees > 100 
 equipment = "audio system"
@@ -72,7 +74,8 @@ else
     print("projector")
 
 #Catering Choices
-attendees = input("Enter number of attendees:")
+attendees = input("Enter the number of attendees:")
+attendees = int(attendees)
 venue = "large hall" 
 if attendees > 100 
 else
@@ -82,7 +85,7 @@ if attendees > 100
 else 
     print("projector")
 vegetarianoption = input("Vegetarian or not.")
-option = "Veggie Delight Caterers"
+vegetarianoption = "Veggie Delight Caterers"
 if vegetarianoption == "Yes."
 else 
     print("Gourmet Meal Caterers")
